@@ -22,6 +22,9 @@ exclude = [
     ".travis.yml",
 ]
 
+[package.metadata.docs.rs]
+all-features = true
+
 [badges]
 travis-ci = { repository = "dalek-cryptography/subtle", branch = "master"}
 
